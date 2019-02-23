@@ -95,6 +95,13 @@ Now the automatic RC filter achieves the desired effect and the F kicks are no l
 
 ![Updater](images/updater.jpg)
 
+> If nothing appears in the updater you can try to put your radio in firmware updata mode by using this combination:
+> 1. Turn off your radio
+> 2. Hold simultaneously the _left horizontal_ trimmer to the _right_ and the _left vertical_ trimmer _down_
+> 3. Turn on your radio
+>
+> ![image](https://user-images.githubusercontent.com/9365881/53287521-f01b2680-3785-11e9-9059-305166350d55.png)
+
 5. Click `Update`
 
 6. After the transmitter is restarted you can make sure the new version is active from the `System`/`Firmware ver.` menu:
