@@ -85,7 +85,7 @@ Now the automatic RC filter achieves the desired effect and the F kicks are no l
 
 1. Head over to the [releases](../../releases) section and download the *bugfix* updater program. Just in case, the original firmware is also provided.
 
-2. You need a special cable. You can either buy one or you can create one yourself. Unlike the FS-i6, which uses UART communication, the FS-i6X uses USB:
+2. You need a special cable. It _might_ be included in your box but mine, for example, came with no cable. In such a case you can either buy one or you can create one yourself. Unlike the FS-i6, which uses UART communication, the FS-i6X uses USB:
 
 ![USB](images/usb.jpg)
 
