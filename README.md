@@ -12,6 +12,8 @@ This is how a single channel's data looks like before (with original firmware) a
 
 ![Before-After](images/before_after.jpg)
 
+> The problem is much more pronounced when using a digital protocol (IBUS or SBUS). PPM is not affected that much because by its nature it has lower frame rate than digital protocols.
+
 If you just want to install the update head over to the [How to flash](#how-to-flash) section.
 
 If you are interested in the details - read on.
