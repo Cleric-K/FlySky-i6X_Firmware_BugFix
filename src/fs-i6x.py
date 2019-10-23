@@ -8,7 +8,7 @@ import struct
 
 # Script taken from https://github.com/qba667/FlyPlusI6X/blob/master/src/builid/fs-i6x.py
 # and slightly modified
-VERSION = (1, 0, 46, 1429)
+VERSION = (1, 0, 51, 1441)
 
 
 def saveFile (name, data):  
@@ -40,9 +40,9 @@ def patch(offset, pbytes):
     data[offset:offset+len(pbytes)] = pbytes
 
 
-patch(0x12028, timeArray)
-patch(0x1200C, dateArray)
-patch(0x11FE0, dateVersionArray)
+patch(0x120AC, timeArray)
+patch(0x12090, dateArray)
+patch(0x12064, dateVersionArray)
 patch(0x4500, struct.pack('<4H', *reversed(VERSION)))
 
 saveFile(destFile, data)
