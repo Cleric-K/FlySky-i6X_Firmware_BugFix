@@ -10,17 +10,17 @@ SECTIONS {
         . = . ;
     } >FLASH
 
-    .text 0x0801DF30 : {
+    .text 0x0801DF90 : {
         *(.text)
     } > FLASH
 
-    .hook_send_frame 0x08008688 : {
+    .hook_send_frame 0x080086F0 : {
         *(.hook_send_frame)
     } >FLASH
 
 
 
-    spi_send = 0x08008F74;
-    memcpy0 = 0x0800426A;
+    spi_send = 0x08008FDC;
+    memcpy0 = 0x0800426E;
     channel_buffer = 0x200023B8;
 }
